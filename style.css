@@ -1,0 +1,101 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+/* Navbar */
+nav {
+    text-align: right;
+    padding: 0.5rem;
+    /* flexbox */
+}
+
+/* Header */
+header {
+    padding: 1rem;
+    border: solid;
+    border-width: 1.5rem 2rem;
+    font-size: xx-large;
+}
+
+/* Footer */
+footer {
+    background-color: whitesmoke;
+    padding: 0.5rem;
+}
+
+/* Home Page specific */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.home-box {
+    width: 80vw;
+    background-color: lightgrey;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.3rem;
+}
+
+.heading {
+    padding: 1rem;
+    font-size: xx-large;
+    border-radius: 0.3rem;
+}
+
+.description {
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.button {
+    display: inline;
+    width: 5rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: whitesmoke;
+}
+
+/* Specific styles for colour */
+/* Home */
+.home-dark{
+    background-color: #c2e5fc;
+    border-color: #dbf0ff;
+}
+.home-light{
+    background-color: #dbf0ff;
+    border-color: #c2e5fc;
+}
+/* About Me*/
+.about-me-dark {
+    background-color: #ccc1e9;
+}
+.about-me-light {
+    background-color: #e6e0f7;
+    border-color: #ccc1e9;
+}
+/* Blog */
+.blog-dark {
+    background-color: #f7b5cb;
+}
+.blog-light {
+    background-color: #f7d0dd;
+    border-color: #f7b5cb;
+}
+/* Contact Me */
+.contact-me-dark {
+    background-color:#f3f396;
+}
+.contact-me-light {
+    background-color: #fcfcd9;
+    border-color: #f3f396;
+}
